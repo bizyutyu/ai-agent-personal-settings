@@ -1,0 +1,22 @@
+{
+    "model": "claude-3-5-sonnet-20241022",
+    "cleanupPeriodDays": 7,
+    "permissions": {
+      "allow": [
+        "Read(src/**/*)",
+        "Bash(npm run build)",
+        "Bash(npm run test)"
+      ],
+      "deny": [
+        "Write",
+        "Edit",
+        "Bash(*install*)",
+        "Bash(git *)"
+      ]
+    },
+    "env": {
+      "NODE_ENV": "production",
+      "CI": "true"
+    }
+  }
+  
