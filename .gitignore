@@ -1,0 +1,20 @@
+# すべてのファイルとディレクトリを無視
+/*
+
+# gitignoreを追跡
+!/.gitignore
+
+# claude関連設定を追跡
+!/.claude/
+/.claude/*
+!/.claude/commands/
+!/.claude/CLAUDE.md
+!/.claude/settings.json
+
+# cursor関連設定を追跡
+!/.cursor/
+/.cursor/*
+!/.cursor/commands/
+
+# copilot関連設定を追跡
+!/.copilot
